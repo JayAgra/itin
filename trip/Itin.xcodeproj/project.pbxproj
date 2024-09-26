@@ -3,16 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		F58614F52CA5BD09006D6D9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58614EE2CA5BD09006D6D9E /* Preview Assets.xcassets */; };
+		F58614F62CA5BD09006D6D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58614F02CA5BD09006D6D9E /* Assets.xcassets */; };
+		F58614F72CA5BD09006D6D9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58614F12CA5BD09006D6D9E /* ContentView.swift */; };
+		F58614F82CA5BD09006D6D9E /* tripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58614F22CA5BD09006D6D9E /* tripApp.swift */; };
+		F58614F92CA5BD09006D6D9E /* TripList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58614F32CA5BD09006D6D9E /* TripList.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F58614D92CA5BC27006D6D9E /* Itin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58614EE2CA5BD09006D6D9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F58614F02CA5BD09006D6D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58614F12CA5BD09006D6D9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F58614F22CA5BD09006D6D9E /* tripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripApp.swift; sourceTree = "<group>"; };
+		F58614F32CA5BD09006D6D9E /* TripList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F58614DB2CA5BC27006D6D9E /* trip */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = trip; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F58614D62CA5BC27006D6D9E /* Frameworks */ = {
@@ -28,7 +37,7 @@
 		F58614D02CA5BC27006D6D9E = {
 			isa = PBXGroup;
 			children = (
-				F58614DB2CA5BC27006D6D9E /* trip */,
+				F58614F42CA5BD09006D6D9E /* trip */,
 				F58614DA2CA5BC27006D6D9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +48,26 @@
 				F58614D92CA5BC27006D6D9E /* Itin.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F58614EF2CA5BD09006D6D9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F58614EE2CA5BD09006D6D9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F58614F42CA5BD09006D6D9E /* trip */ = {
+			isa = PBXGroup;
+			children = (
+				F58614F22CA5BD09006D6D9E /* tripApp.swift */,
+				F58614F32CA5BD09006D6D9E /* TripList.swift */,
+				F58614F12CA5BD09006D6D9E /* ContentView.swift */,
+				F58614F02CA5BD09006D6D9E /* Assets.xcassets */,
+				F58614EF2CA5BD09006D6D9E /* Preview Content */,
+			);
+			path = trip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F58614DB2CA5BC27006D6D9E /* trip */,
 			);
 			name = Itin;
 			packageProductDependencies = (
@@ -104,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58614F52CA5BD09006D6D9E /* Preview Assets.xcassets in Resources */,
+				F58614F62CA5BD09006D6D9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58614F72CA5BD09006D6D9E /* ContentView.swift in Sources */,
+				F58614F82CA5BD09006D6D9E /* tripApp.swift in Sources */,
+				F58614F92CA5BD09006D6D9E /* TripList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
