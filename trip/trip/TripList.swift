@@ -24,6 +24,7 @@ struct TripList: View {
                             VStack {
                                 Text("189")
                                     .font(.largeTitle)
+                                    .fontDesign(.rounded)
                                 Text("days")
                             }
                         }
